@@ -10,8 +10,11 @@ START:
 `Poject name: my-react-app`
 
 `Select a framework: `
+
   `React`
 
 `Select a variant: `
-  JavaScript`
-  
+
+  `JavaScript`
+
+`npm run dev`
