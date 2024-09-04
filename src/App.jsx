@@ -8,6 +8,8 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import ClickButton from './Button/ClickButton.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
+import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
   return(
       <>
           <Header></Header>
+          <MyComponent></MyComponent>
+          <Counter></Counter>
           <UserGreeting isLoggedIn={true} username='Yura'></UserGreeting>
           <Button></Button>
           <ClickButton></ClickButton>
