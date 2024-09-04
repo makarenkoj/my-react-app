@@ -6,6 +6,9 @@ import Button from './Button/Button.jsx'
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
+import ClickButton from './Button/ClickButton.jsx'
+import ProfilePicture from './ProfilePicture.jsx'
+
 
 function App() {
   const fruits = [{id: 1, name:'apple', calories: 95},
@@ -24,6 +27,8 @@ function App() {
           <Header></Header>
           <UserGreeting isLoggedIn={true} username='Yura'></UserGreeting>
           <Button></Button>
+          <ClickButton></ClickButton>
+          <ProfilePicture></ProfilePicture>
           <Food></Food>
           <Card></Card>
           <Student name='Spongebob' age={30} isStudent={false}></Student>
