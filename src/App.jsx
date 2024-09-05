@@ -10,6 +10,7 @@ import ClickButton from './Button/ClickButton.jsx'
 import ProfilePicture from './ProfilePicture.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
+import ChangeComponent from './ChangeComponent.jsx'
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
   return(
       <>
           <Header></Header>
+          <ChangeComponent></ChangeComponent>
           <MyComponent></MyComponent>
           <Counter></Counter>
           <UserGreeting isLoggedIn={true} username='Yura'></UserGreeting>
