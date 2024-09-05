@@ -11,6 +11,7 @@ import ProfilePicture from './ProfilePicture.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import ChangeComponent from './ChangeComponent.jsx'
+import ColorPicker from './ColorPicker.jsx'
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Student></Student>
           {fruits.length > 0 && <List items={fruits} category='Fruits'></List>}
           {vegetables.length > 0 && <List items={vegetables} category='Vegetables'></List>}
+          <ColorPicker></ColorPicker>
           <Footer></Footer> 
       </>
   );
