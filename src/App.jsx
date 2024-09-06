@@ -20,6 +20,7 @@ import ToDoList from './ToDoList.jsx'
 import EffectComponent from './EffectComponent.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import ComponentA from './ComponentA.jsx'
+import RefComponent from './RefComponent.jsx'
 
 function App() {
   const fruits = [{id: 1, name:'apple', calories: 95},
@@ -36,6 +37,7 @@ function App() {
   return(
       <>
           <Header></Header>
+          <RefComponent></RefComponent>
           <ComponentA></ComponentA>
           <DigitalClock></DigitalClock>
           <EffectComponent></EffectComponent>
