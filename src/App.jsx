@@ -16,6 +16,7 @@ import Updater from './Updater.jsx'
 import UpdateObject from './UpdateObject.jsx'
 import UpdateArray from './UpdateArray.jsx'
 import AddObject from './AddObject.jsx'
+import ToDoList from './ToDoList.jsx'
 
 function App() {
   const fruits = [{id: 1, name:'apple', calories: 95},
@@ -32,6 +33,7 @@ function App() {
   return(
       <>
           <Header></Header>
+          <ToDoList></ToDoList>
           <AddObject></AddObject>
           <UpdateArray></UpdateArray>
           <UpdateObject></UpdateObject>
