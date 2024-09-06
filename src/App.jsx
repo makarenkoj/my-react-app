@@ -14,6 +14,7 @@ import ChangeComponent from './ChangeComponent.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import Updater from './Updater.jsx'
 import UpdateObject from './UpdateObject.jsx'
+import UpdateArray from './UpdateArray.jsx'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
   return(
       <>
           <Header></Header>
+          <UpdateArray></UpdateArray>
           <UpdateObject></UpdateObject>
           <Updater></Updater>
           <ChangeComponent></ChangeComponent>
