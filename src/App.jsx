@@ -17,6 +17,7 @@ import UpdateObject from './UpdateObject.jsx'
 import UpdateArray from './UpdateArray.jsx'
 import AddObject from './AddObject.jsx'
 import ToDoList from './ToDoList.jsx'
+import EffectComponent from './EffectComponent.jsx'
 
 function App() {
   const fruits = [{id: 1, name:'apple', calories: 95},
@@ -33,6 +34,7 @@ function App() {
   return(
       <>
           <Header></Header>
+          <EffectComponent></EffectComponent>
           <ToDoList></ToDoList>
           <AddObject></AddObject>
           <UpdateArray></UpdateArray>
