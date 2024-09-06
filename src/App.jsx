@@ -12,6 +12,7 @@ import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import ChangeComponent from './ChangeComponent.jsx'
 import ColorPicker from './ColorPicker.jsx'
+import Updater from './Updater.jsx'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
   return(
       <>
           <Header></Header>
+          <Updater></Updater>
           <ChangeComponent></ChangeComponent>
           <MyComponent></MyComponent>
           <Counter></Counter>
