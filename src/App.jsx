@@ -15,7 +15,7 @@ import ColorPicker from './ColorPicker.jsx'
 import Updater from './Updater.jsx'
 import UpdateObject from './UpdateObject.jsx'
 import UpdateArray from './UpdateArray.jsx'
-
+import AddObject from './AddObject.jsx'
 
 function App() {
   const fruits = [{id: 1, name:'apple', calories: 95},
@@ -32,6 +32,7 @@ function App() {
   return(
       <>
           <Header></Header>
+          <AddObject></AddObject>
           <UpdateArray></UpdateArray>
           <UpdateObject></UpdateObject>
           <Updater></Updater>
